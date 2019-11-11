@@ -1,0 +1,10 @@
+{
+  "name": "userds",
+  "connector": "mysql",
+  "url": "",
+  "host": "localhost",
+  "port": 3306,
+  "user": "lny",
+  "password": "1234",
+  "database": "lb4"
+}
