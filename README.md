@@ -1,1 +1,4 @@
-# lb4-react
+lb4
+react
+typescript
+mongo
