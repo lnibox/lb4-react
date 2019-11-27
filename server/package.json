@@ -28,7 +28,10 @@
     "migrate": "node ./dist/migrate",
     "prestart": "npm run build",
     "start": "node -r source-map-support/register .",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon --ignore 'public/' --ignore 'node_modules/' index.js",
+    "client": "npm run start --prefix ../client"
   },
   "repository": {
     "type": "git"
@@ -57,7 +60,8 @@
     "jsonwebtoken": "^8.5.1",
     "loopback-connector-mysql": "^5.4.2",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0"
+    "passport-jwt": "^4.0.0",
+    "concurrently": "^4.1.0"
   },
   "devDependencies": {
     "@loopback/build": "^2.0.15",
