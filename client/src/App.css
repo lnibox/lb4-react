@@ -1,11 +1,10 @@
-p {
-  color: red; }
-
 .App {
-  text-align: center; }
+  text-align: center;
+}
 
 .App-logo {
-  height: 40vmin; }
+  height: 40vmin;
+}
 
 .App-header {
   background-color: #282c34;
@@ -15,10 +14,9 @@ p {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white; }
+  color: white;
+}
 
 .App-link {
-  color: #09d3ac; }
-
-h1 {
-  color: #09d3ac; }
+  color: #09d3ac;
+}
